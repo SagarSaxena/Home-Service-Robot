@@ -44,7 +44,10 @@ int main(int argc, char** argv){
 
     // Check if the robot reached its goal
     if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED) {
-      ROS_INFO("Successfully reached pick up zone");
+      if (i == 0) 
+        ROS_INFO("Successfully reached pick up zone");
+      else
+        ROS_INFO("Successfully reached drop off zone");
 
       ros::Duration(5.0).sleep();
     }
