@@ -57,6 +57,8 @@ $ ./test_navigation.sh
 ```
 Use the `2D Nav Goal` button in Rviz to set goal positions and watch the robot navigate to them
 
+![Home Service Robot demo3](GIF/HomeServiceRobot3.gif)
+
 ## Run the full project
 source the environment and launch the script:
 ```
