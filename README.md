@@ -5,8 +5,10 @@ This is the final project for the Udacity Robotics Software Engineering Nanodegr
 
 ## Packages
 To implement this project several ROS packages are used:
-`my_robot`:
-`slam_gmapping`:
+
+`my_robot`: This package, created in [Project 2](https://github.com/SagarSaxena/Robotics-Nano-Degree/tree/master/Project2), contains the environment, modelled in Gazebo.
+
+`slam_gmapping`: 
 `turtlebot`:
 `turtlebot_interactions`:
 `turtlebot_simulator`:
