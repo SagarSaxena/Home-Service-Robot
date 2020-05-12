@@ -15,6 +15,16 @@ To implement this project several ROS packages are used:
 `add_markers`:
 
 ## Results
+![Home Service Robot demo1](GIF/HomeServiceRobot.gif)
+**Shown above:** Visualization in Rviz. The robot can be seen navigating to two different goal positions and picking up and dropping off a virtual object (green square).
+
+![Home Service Robot demo2](GIF/HomeServiceRobot2.gif)
+**Shown above:** Running the same script but visualizing the robot and environment in Gazebo.
+
+
+TBC: Local costmap
+
+
 
 ## Install
 ```
